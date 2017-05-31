@@ -130,3 +130,22 @@ body {
 #carousel-tour {
   margin-top: 50px;
 }
+
+a.btn-scroll {
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+a.btn-scroll:hover {
+  color: #9bf0e1;
+}
+
+.btn-scroll-text {
+  text-transform: uppercase;
+  transition: color .3s ease-in-out;
+  display: block;
+  font-weight: 700;
+  letter-spacing: .1em;
+}
