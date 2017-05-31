@@ -81,6 +81,7 @@ body {
   padding: 100px 0;
   margin: 0;
   text-align: center;
+  position: relative;
 }
 
 .bg-white {
@@ -219,4 +220,8 @@ h3 {
 
 .devices-container img {
   max-width: 100%;
+}
+
+.jumbotron-devices {
+  background: #222326;
 }
