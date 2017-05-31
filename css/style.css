@@ -78,6 +78,10 @@ body {
   text-align: center;
 }
 
+.bg-white {
+  background-color: #fff;
+}
+
 .carousel-control.right, .carousel-control.left {
   background: none;
 }
@@ -148,4 +152,36 @@ a.btn-scroll:hover {
   display: block;
   font-weight: 700;
   letter-spacing: .1em;
+  margin-bottom: 20px;
+}
+
+.text-klein-purple {
+  color: #7c25f8;
+}
+
+h2 {
+  font-size: 50px;
+  line-height: 1;
+  margin: 0 0 .75em;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.4;
+}
+
+.jumbotron-whats-on {
+  text-align: left;
+}
+
+.jumbotron p {
+  font-weight: 400;
+  font-size: 18px;
+  margin: 1em 0;
+}
+
+.album-img {
+  padding: 0;
 }
