@@ -84,6 +84,10 @@ body {
   position: relative;
 }
 
+.jumbotron h1 {
+  font-weight: 900;
+}
+
 .bg-white {
   background-color: #fff;
 }
@@ -213,9 +217,12 @@ h3 {
 .devices-container {
   margin-top: -350px;
   margin-bottom: -620px;
+  transform: rotate(30deg) translate3d(0,40px,0);
+}
+
+.grid-overflow {
   margin-right: -100%;
   float: left;
-  transform: rotate(30deg) translate3d(0,40px,0);
 }
 
 .devices-container img {
@@ -265,6 +272,11 @@ h3 {
 .jumbotron-subscriptions {
   padding: 150px 0 0;
   text-align: left;
+}
+
+.jumbotron-subscriptions .btn {
+  margin-top: 30px;
+  margin-bottom: 70px;
 }
 
 .price-title {
@@ -324,4 +336,17 @@ p.legal a {
 
 p.legal a:hover {
   color: #42e3c6;
+}
+
+.nexus {
+  width: 458px;
+  height: 873px;
+  padding: 60px 24px 0 18px;
+  background: url('../img/nexus-klein-purple.png') no-repeat;
+  background-size: cover;
+  margin-bottom: -50%;
+}
+
+.nexus img {
+  max-width: 100%;
 }
