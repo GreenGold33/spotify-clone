@@ -355,6 +355,7 @@ p.legal a:hover {
   background-color: black;
   color: white;
   padding: 80px 0 50px;
+  text-align: left;
 }
 
 .footer-highlight-aquamarine a {
@@ -376,4 +377,17 @@ p.legal a:hover {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-bottom: 50px;
+}
+
+.footer .nav-title {
+  color: #919496;
+  font-size: 12px;
+  letter-spacing: .08em;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+.footer .nav li a {
+  padding: 3px 0;
+  margin: 0 0 12px;
 }
