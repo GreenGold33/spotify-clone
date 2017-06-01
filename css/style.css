@@ -391,3 +391,31 @@ p.legal a:hover {
   padding: 3px 0;
   margin: 0 0 12px;
 }
+
+.col-social {
+  margin-top: 20px;
+}
+
+.footer .col-social ul {
+  float: right;
+}
+
+.footer .col-social li {
+  display: inline-block;
+}
+
+.footer .col-social li a {
+  padding: 15px;
+  margin-bottom: 12px;
+  background-color: #222326;
+  border-radius: 30px;
+}
+
+.footer .col-social a:hover {
+  background-color: #222326;
+}
+
+.col-social a img {
+  width: 24px;
+  height: 24px;
+}
