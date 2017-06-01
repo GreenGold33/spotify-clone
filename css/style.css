@@ -419,3 +419,47 @@ p.legal a:hover {
   width: 24px;
   height: 24px;
 }
+
+.footer .nav-small a {
+  color: #919496;
+}
+
+.footer .nav-small li a {
+  float: left;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 12px;
+  margin: 0;
+}
+
+.row-small {
+  margin-top: 100px;
+}
+
+.footer .nav-small li:first-child a {
+  padding-left: 0;
+}
+
+.flag-icon-us {
+    background-image: url('https://sp-bootstrap.global.ssl.fastly.net/8.0.0/images/flags/us.svg');
+}
+
+.flag-icon {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  font-size: 18px;
+  height: 1em;
+  width: 1.33333333em;
+}
+
+.market, .copyright {
+  color: #919496;
+  font-size: 12px;
+}
+
+a.market {
+  color: #919496;
+  text-decoration: none;
+}
